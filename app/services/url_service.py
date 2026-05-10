@@ -3,7 +3,6 @@ from app.db.models import URL
 
 
 BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-BASE_URL = "http://localhost:8000"
 
 
 def encode_base62(num: int) -> str:
